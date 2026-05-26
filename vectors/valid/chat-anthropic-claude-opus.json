@@ -1,0 +1,27 @@
+{
+  "resourceSpans": [
+    {
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "7e6b5a4c3d2e1f0a9b8c7d6e5f4e3d2c",
+              "spanId": "0a1b2c3d4e5f6789",
+              "name": "chat claude-opus-4-7",
+              "kind": 3,
+              "startTimeUnixNano": "1716700200000000000",
+              "endTimeUnixNano": "1716700205000000000",
+              "attributes": [
+                { "key": "gen_ai.provider.name", "value": { "stringValue": "anthropic" } },
+                { "key": "gen_ai.operation.name", "value": { "stringValue": "chat" } },
+                { "key": "gen_ai.request.model", "value": { "stringValue": "claude-opus-4-7" } },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "2500" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "400" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

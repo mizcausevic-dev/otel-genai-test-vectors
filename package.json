@@ -1,0 +1,61 @@
+{
+  "name": "otel-genai-test-vectors",
+  "version": "0.1.0",
+  "description": "Curated OpenTelemetry GenAI conformance corpus — categorized OTLP/JSON fixtures (valid / dirty / shape) with a declarative manifest. Like the W3C trace-context test corpus, but for the OTel GenAI semantic conventions. Drop-in regression target for any GenAI consumer: validators, exporters, rollups, dashboards.",
+  "type": "module",
+  "license": "AGPL-3.0-or-later",
+  "author": "mizcausevic-dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mizcausevic-dev/otel-genai-test-vectors"
+  },
+  "keywords": [
+    "opentelemetry",
+    "otel",
+    "genai",
+    "llm",
+    "observability",
+    "semantic-conventions",
+    "test-vectors",
+    "conformance",
+    "fixtures",
+    "typescript"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./vectors/*": "./vectors/*"
+  },
+  "files": [
+    "dist",
+    "vectors",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "demo": "tsx scripts/demo.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.0",
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^9.17.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0",
+    "vitest": "^2.1.8"
+  }
+}

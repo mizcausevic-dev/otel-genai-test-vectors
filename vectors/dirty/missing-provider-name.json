@@ -1,0 +1,23 @@
+{
+  "resourceSpans": [
+    {
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "name": "chat gpt-4o-mini",
+              "kind": 3,
+              "startTimeUnixNano": "1716700400000000000",
+              "attributes": [
+                { "key": "gen_ai.operation.name", "value": { "stringValue": "chat" } },
+                { "key": "gen_ai.request.model", "value": { "stringValue": "gpt-4o-mini" } },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "100" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "50" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

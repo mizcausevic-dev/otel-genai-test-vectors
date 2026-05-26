@@ -1,0 +1,27 @@
+{
+  "resourceSpans": [
+    {
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "5b8aa5a2d2c872e8321cf37308d69df3",
+              "spanId": "051581bf3cb55c14",
+              "name": "embeddings text-embedding-3-small",
+              "kind": 3,
+              "startTimeUnixNano": "1716700100000000000",
+              "endTimeUnixNano": "1716700100200000000",
+              "attributes": [
+                { "key": "gen_ai.provider.name", "value": { "stringValue": "openai" } },
+                { "key": "gen_ai.operation.name", "value": { "stringValue": "embeddings" } },
+                { "key": "gen_ai.request.model", "value": { "stringValue": "text-embedding-3-small" } },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "32" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "0" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

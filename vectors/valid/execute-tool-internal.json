@@ -1,0 +1,27 @@
+{
+  "resourceSpans": [
+    {
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "5b8aa5a2d2c872e8321cf37308d69df5",
+              "spanId": "051581bf3cb55c16",
+              "name": "execute_tool search-vectorstore",
+              "kind": 1,
+              "startTimeUnixNano": "1716700300000000000",
+              "endTimeUnixNano": "1716700300150000000",
+              "attributes": [
+                { "key": "gen_ai.provider.name", "value": { "stringValue": "openai" } },
+                { "key": "gen_ai.operation.name", "value": { "stringValue": "execute_tool" } },
+                { "key": "gen_ai.request.model", "value": { "stringValue": "search-vectorstore" } },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "0" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "0" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

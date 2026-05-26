@@ -1,0 +1,28 @@
+{
+  "resourceSpans": [
+    {
+      "scopeSpans": [
+        {
+          "spans": [
+            {
+              "traceId": "5b8aa5a2d2c872e8321cf37308d69df2",
+              "spanId": "051581bf3cb55c13",
+              "name": "chat gpt-4o-mini",
+              "kind": 3,
+              "startTimeUnixNano": "1716700000000000000",
+              "endTimeUnixNano": "1716700001500000000",
+              "attributes": [
+                { "key": "gen_ai.provider.name", "value": { "stringValue": "openai" } },
+                { "key": "gen_ai.operation.name", "value": { "stringValue": "chat" } },
+                { "key": "gen_ai.request.model", "value": { "stringValue": "gpt-4o-mini" } },
+                { "key": "gen_ai.response.model", "value": { "stringValue": "gpt-4o-mini-2024-07-18" } },
+                { "key": "gen_ai.usage.input_tokens", "value": { "intValue": "812" } },
+                { "key": "gen_ai.usage.output_tokens", "value": { "intValue": "146" } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
